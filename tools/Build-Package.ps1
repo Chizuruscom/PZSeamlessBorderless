@@ -20,3 +20,12 @@ $g.Dispose(); $bitmap.Dispose(); $pen.Dispose(); $brush.Dispose(); $font.Dispose
 $output = Join-Path $root 'PZ-Seamless-Borderless-Workshop-0.2.0.zip'
 Compress-Archive -LiteralPath $item -DestinationPath $output -Force
 Write-Output $output
+
+# Standalone Release: extract this folder alongside ProjectZomboid64.exe.
+$releaseFolder = Join-Path $root 'dist\PZSeamlessBorderless'
+[void][IO.Directory]::CreateDirectory($releaseFolder)
+$mod = Join-Path $item 'Contents\mods\PZSeamlessBorderless'
+Copy-Item -LiteralPath (Join-Path $mod 'PZ-Steam.ps1'), (Join-Path $mod 'PZWindow.cs'), (Join-Path $root 'README.md') -Destination $releaseFolder -Force
+$releaseZip = Join-Path $root 'dist\PZ-Seamless-Borderless-0.2.0.zip'
+Compress-Archive -LiteralPath $releaseFolder -DestinationPath $releaseZip -Force
+Write-Output $releaseZip
