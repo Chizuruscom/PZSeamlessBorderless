@@ -7,7 +7,7 @@
 ## Setup:
 
 1. In game, select Borderless Window and your desktop resolution, then exit the game.
-2. Download `[PZ-Seamless-Borderless-0.2.0.zip](https://github.com/Chizuruscom/PZSeamlessBorderless/releases/download/v0.2.0/PZ-Seamless-Borderless-0.2.0.zip)`
+2. Download [PZ-Seamless-Borderless-0.2.0.zip](https://github.com/Chizuruscom/PZSeamlessBorderless/releases/download/v0.2.0/PZ-Seamless-Borderless-0.2.0.zip)
 3. Steam Library → Project Zomboid → Right-click → Manage / Browse Local Files. Extract the ZIP here, so `PZSeamlessBorderless` is next to `ProjectZomboid64.exe`.
 4. Open `PZSeamlessBorderless`, right-click `PZ-Steam.ps1` and select Copy as path.
 5. Steam Library → Project Zomboid → Properties → General → Set the launch options to the following.
@@ -19,7 +19,7 @@
 ## 安装：
 
 1. 游戏内选择无边框窗口、桌面分辨率，退出游戏
-2. 下载 `[PZ-Seamless-Borderless-0.2.0.zip](https://github.com/Chizuruscom/PZSeamlessBorderless/releases/download/v0.2.0/PZ-Seamless-Borderless-0.2.0.zip)`
+2. 下载 [PZ-Seamless-Borderless-0.2.0.zip](https://github.com/Chizuruscom/PZSeamlessBorderless/releases/download/v0.2.0/PZ-Seamless-Borderless-0.2.0.zip)
 3. Steam 库 → Project Zomboid → 右键管理/浏览本地文件，将 ZIP 解压到这里，使 `PZSeamlessBorderless` 文件夹与 `ProjectZomboid64.exe` 位于同一级。
 4. 进入 `PZSeamlessBorderless` 文件夹，右键 `PZ-Steam.ps1` → 复制文件地址。
 5. Steam 库 → Project Zomboid → 属性 → 通用 → 启动项设置为以下内容
