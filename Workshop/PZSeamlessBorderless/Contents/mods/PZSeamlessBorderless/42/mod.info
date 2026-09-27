@@ -1,0 +1,6 @@
+name=PZ Seamless Borderless - Steam Launcher
+id=PZSeamlessBorderless
+description=Windows helper for borderless Alt+Tab. Subscription plus one-time Steam launch options setup is required. See INSTALL.zh-CN.md or INSTALL.en.md beside PZ-Steam.ps1. Enabling this entry alone does not apply the fix. No save or gameplay changes.
+modversion=0.2.0
+versionMin=42.0
+poster=poster.png
