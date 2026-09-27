@@ -42,7 +42,8 @@
 
 ## Mod ID
 
-The GitHub Release does not require a Workshop subscription or enabling a mod in game. / GitHub Release 版本无需订阅创意工坊，也无需在游戏内启用 Mod。
+The GitHub Release does not require a Workshop subscription or enabling a mod in game.
+GitHub Release 版本无需订阅创意工坊，也无需在游戏内启用 Mod
 
 Workshop ID: 3808982224  
 Mod ID: PZSeamlessBorderless
